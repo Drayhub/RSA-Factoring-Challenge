@@ -17,7 +17,8 @@ def factors(n):
             n = n // i
         i += 2
 
-    return factors
+    # Return the first two elements of the list
+    return factors[0], factors[1]
 
 # Read file name from command line
 filename = sys.argv[1]
